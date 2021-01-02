@@ -1,0 +1,27 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+video{
+  opacity: 0.5;
+}
+
+#flappyCanvas {
+  position: absolute;
+}
+
+#player {
+  width: 10%;
+  height: 10%;
+}
+
+.face-element{
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s ease;
+  font-size: 24px;
+  font-weight: 600;
+  transform-origin: center;
+  text-align: center;
+}
